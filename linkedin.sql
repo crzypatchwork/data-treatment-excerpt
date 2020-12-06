@@ -19,11 +19,11 @@ CREATE TABLE companies (
     year_founded INT
 ) CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
-select * from companies limit 10;
-drop table companies;
+#select * from companies limit 10;
+#drop table companies;
 
 # https://github.com/bahar/WorldCityLocations/blob/master/World_Cities_Location_table.sql
 
-select corp.locality, loc.latitude, loc.longitude from location as loc
-join companies as corp
-on corp.locality = loc.city;
+SELECT corp.locality, loc.latitude, loc.longitude FROM location AS loc
+JOIN companies AS corp
+ON corp.locality = loc.city;
