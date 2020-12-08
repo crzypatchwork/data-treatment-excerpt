@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Dropbox - 200</title>
+<link href="https://cfl.dropboxstatic.com/static/css/error.css" rel="stylesheet" type="text/css"/>
+<link rel="shortcut icon" href="https://cfl.dropboxstatic.com/static/images/favicon.ico"/>
+</head>
+<body>
+<div class="figure">
+<img src="https://cfl.dropboxstatic.com/static/images/illustration_catalog/200_unsupported-browser-illo.png" srcset="https://cfl.dropboxstatic.com/static/images/illustration_catalog/200_unsupported-browser-illo@2x.png 2x" alt="Error: 200"/>
+</div>
+<div id="errorbox">
+<div style="text-align: center"> <h1>Upgrade your browser to use Dropbox</h1> <div> <p>Your current browser is not supported. We support the latest versions of the following browsers:</p> <ul class="notranslate" style="margin:0;padding:0;list-style:none"> <li><a href="https://www.microsoft.com/edge">Edge</a></li> <li><a href="https://www.google.com/chrome">Chrome</a></li> <li><a href="https://www.mozilla.org/firefox/new/">Firefox</a></li> <li><a href="https://support.apple.com/HT204416">Safari</a></li> </ul> </div> </div>
+</div>
+
+</body>
+</html>
