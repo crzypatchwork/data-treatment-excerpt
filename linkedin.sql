@@ -1,7 +1,7 @@
-CREATE DATABASE LINKEDIN;
+CREATE DATABASE IF NOT EXISTS LINKEDIN;
 
-CREATE USER 'sociedatos'@'localhost' IDENTIFIED BY '123';
-GRANT ALL PRIVILEGES ON *.* TO 'sociedatos'@'localhost' IDENTIFIED BY '123';
+CREATE USER 'sociedatos'@'127.0.0.1' IDENTIFIED BY '123';
+GRANT ALL PRIVILEGES ON *.* TO 'sociedatos'@'127.0.0.1' IDENTIFIED BY '123';
 
 USE LINKEDIN;
 
@@ -24,6 +24,4 @@ CREATE TABLE companies (
 
 # https://github.com/bahar/WorldCityLocations/blob/master/World_Cities_Location_table.sql
 
-SELECT corp.locality, loc.latitude, loc.longitude FROM location AS loc
-JOIN companies AS corp
-ON corp.locality = loc.city;
+

@@ -8,7 +8,7 @@ chunksize = 10 ** 6
 conn = mariadb.connect(
     user="sociedatos",
     password="123",
-    host="localhost",
+    host="127.0.0.1",
     database="LINKEDIN"
     )
 
