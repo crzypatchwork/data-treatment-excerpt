@@ -1,5 +1,5 @@
 excerpt for latitude/longitudes tables join on mariadb
 
 ```
-gpl-3
+CC-BY-4.0
 ```
