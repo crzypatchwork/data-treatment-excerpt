@@ -54,3 +54,5 @@ END$$
 DELIMITER;
 */
 
+select * from companies where country = 'brazil' order by cast(total_employee_estimate as int) asc limit 100;
+
