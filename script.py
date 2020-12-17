@@ -1,3 +1,4 @@
+#converts .csv to .sql
 
 import pandas as pd 
 import mariadb

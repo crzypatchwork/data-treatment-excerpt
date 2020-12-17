@@ -1,3 +1,5 @@
+sudo apt-get install libmariadb3 libmariadb-dev
+
 curl -O https://downloads.mariadb.com/Connectors/c/connector-c-3.1.10/mariadb-connector-c-3.1.10-ubuntu-bionic-amd64.tar.gz
 
 sudo su
