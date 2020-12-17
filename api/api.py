@@ -15,7 +15,7 @@ conn = mariadb.connect(
 
 conn.autocommit = False
 
-@app.route('/', methods=['GET'])
+@app.route('/countries_count', methods=['GET'])
 def get_countries_count():
     
     cursor = conn.cursor()
