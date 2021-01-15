@@ -54,5 +54,8 @@ END$$
 DELIMITER;
 */
 
-select * from companies where country = 'brazil' order by cast(total_employee_estimate as int) asc limit 100;
+select * from companies where country = 'brazil' order by cast(total_employee_estimate as int) desc limit 100;
+
+set @c = 0 ; select max(T.C) into @c from (select distinct country, sum(@c + total_employee_estimate) AS C from companies where country = 'argentina' and total_employee_estimate is not null) T ;
+
 
